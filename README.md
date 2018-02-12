@@ -1,8 +1,8 @@
 ## Locks up on sleep and powerdown
-[https://askubuntu.com/questions/764568/ubuntu-16-04-hangs-on-shutdown-restart/792086#792086]
+[https://www.reddit.com/r/Dell/comments/63cavx/fixed_nvidia_1050_freezing_in_ubuntu_linux/]
 
 Modify /etc/default/grub
 ```
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi=force"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_rev_override=1"
 ```
 
