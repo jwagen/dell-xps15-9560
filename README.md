@@ -6,3 +6,9 @@ Modify /etc/default/grub
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_rev_override=1"
 ```
 
+# No audio in headphones
+The headphones are detected but there is no audio. They work fine in windows. 
+Solution:
+```
+alsactl restore
+```
